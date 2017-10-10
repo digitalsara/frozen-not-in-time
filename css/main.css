@@ -1,0 +1,30 @@
+html {
+  font-family: "Fredoka One", cursive;
+}
+
+h1 {
+  color: #990073;
+  transform: rotate(-10deg);
+}
+
+p {
+  color: #c09;
+  transform: rotate(-6deg);
+}
+
+.btn {
+  border-color: #990073;
+  color: #c09;
+  margin-left: .5em;
+}
+
+.btn:hover {
+  background-color: rgba(153, 0, 115, .4);
+  border-color: #990073;
+  color: #c09;
+}
+
+.intro p {
+  margin-left: .5em;
+  max-width: 19em;
+}
