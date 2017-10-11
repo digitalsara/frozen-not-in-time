@@ -1,5 +1,5 @@
 html {
-  background: repeating-linear-gradient(-45deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
+  background: repeating-linear-gradient(-30deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
   border-top: 10px solid #b3fbff;
   font-family: "Fredoka One", sans-serif;
 }
@@ -32,8 +32,9 @@ p {
 }
 
 .intro {
+  text-shadow: 1px 2px rgba(0,0,0,0.25);
   transform-origin: left center;
-  animation: opacity 2s linear;
+  animation: opacity 5s linear;
 }
 
 .ice-wrapper {
@@ -74,6 +75,7 @@ p {
 }
 
 @keyframes opacity {
+
   0% {
     opacity: 0;
   }
