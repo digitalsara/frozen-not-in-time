@@ -21,7 +21,7 @@ p {
 }
 
 .btn:hover {
-  background-color: rgba(153, 0, 115, .4);
+  background-color: rgba(153, 0, 115, .2);
   border-color: #990073;
   color: #c09;
 }
@@ -32,7 +32,8 @@ p {
 }
 
 .intro {
-  transition: all 2s linear;
+  transform-origin: left center;
+  animation: opacity 2s linear;
 }
 
 .ice-wrapper {
@@ -70,4 +71,22 @@ p {
   left: calc(50% - 150px);
   top: 430px;
   z-index: 11;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
