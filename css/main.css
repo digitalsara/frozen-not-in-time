@@ -1,7 +1,7 @@
 html {
   background: repeating-linear-gradient(-45deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
   border-top: 10px solid #b3fbff;
-  font-family: "Fredoka One", cursive;
+  font-family: "Fredoka One", sans-serif;
 }
 
 h1 {
@@ -20,7 +20,7 @@ p {
   margin-left: .5em;
 }
 
-.btn:hover {
+.btn-ghost:hover {
   background-color: rgba(153, 0, 115, .2);
   border-color: #990073;
   color: #c09;
