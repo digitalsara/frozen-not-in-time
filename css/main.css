@@ -22,7 +22,7 @@ p {
   max-width: 19em;
 }
 
-.btn {
+.btn-ghost {
   border-color: #990073;
   color: #c09;
   margin-left: .5em;
@@ -54,7 +54,7 @@ p {
 }
 
 .cherry {
-  animation: cherry 300ms 1s linear forwards;
+  animation: cherry 600ms linear forwards;
   bottom: 600px;
   left: calc(50% - 40px);
   width: 50px;
@@ -62,7 +62,7 @@ p {
 }
 
 .melt {
-  animation: fudge 300ms 400ms linear forwards;
+  animation: fudge 500ms linear forwards;
   bottom: 600px;
   left: calc(50% - 80px);
   width: 130px;
@@ -70,7 +70,7 @@ p {
 }
 
 .chips {
-  animation: chocolate 300ms 300ms linear forwards;
+  animation: chocolate 400ms linear forwards;
   bottom: 600px;
   left: calc(50% - 70px);
   width: 130px;
@@ -78,7 +78,7 @@ p {
 }
 
 .mint {
-  animation: mint 300ms 300ms linear forwards;
+  animation: mint 300ms linear forwards;
   left: calc(50% - 90px);
   bottom: 600px;
   width: 130px;
@@ -86,7 +86,7 @@ p {
 }
 
 .cone {
-  animation: cone 300ms linear forwards;
+  animation: cone 200ms linear forwards;
   left: calc(50% - 90px);
   bottom: 600px;
   width: 130px;
