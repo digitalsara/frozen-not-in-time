@@ -49,35 +49,41 @@ p {
 
 .cherry {
   animation: cherry 300ms 1s linear forwards;
-  left: calc(50% - 100px);
+  bottom: 600px;
+  left: calc(50% - 50px);
+  width: 50px;
   z-index: 10;
 }
 
 .melt {
   animation: fudge 300ms 400ms linear forwards;
-  left: calc(50% - 160px);
-  top: calc(50% - 60px);
+  bottom: 600px;
+  left: calc(50% - 95px);
+  width: 140px;
   z-index: 9;
 }
 
 .chips {
   animation: chocolate 300ms 300ms linear forwards;
-  left: calc(50% - 140px);
-  top: 180px;
+  bottom: 600px;
+  left: calc(50% - 80px);
+  width: 140px;
   z-index: 8;
 }
 
 .mint {
-  animation: mint 300ms 200ms linear forwards,
-  left: calc(50% - 160px);
-  top: 300px;
+  animation: mint 300ms 300ms linear forwards;
+  left: calc(50% - 100px);
+  bottom: 600px;
+  width: 140px;
   z-index: 7;
 }
 
 .cone {
   animation: cone 300ms linear forwards;
-  left: calc(50% - 150px);
-  top: 430px;
+  left: calc(50% - 100px);
+  bottom: 600px;
+  width: 140px;
   z-index: 11;
 }
 
@@ -97,5 +103,60 @@ p {
 
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes cherry {
+
+  0% {
+    transform: translate(0, -100px);
+  }
+
+  100% {
+    transform: translateY(350px);
+  }
+}
+
+@keyframes fudge {
+
+  0% {
+    transform: translate(0, -100px);
+  }
+
+  100% {
+    transform: translateY(470px);
+  }
+}
+
+@keyframes chocolate {
+
+  0% {
+    transform: translate(0, -100px);
+  }
+
+  100% {
+    transform: translateY(560px);
+  }
+}
+
+@keyframes mint {
+
+  0% {
+    transform: translate(0, -100px);
+  }
+
+  100% {
+    transform: translateY(645px);
+  }
+}
+
+@keyframes cone {
+
+  0% {
+    transform: translate(0, -100px);
+  }
+
+  100% {
+    transform: translateY(780px);
   }
 }
