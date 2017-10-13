@@ -39,9 +39,10 @@ p {
 }
 
 .intro {
+  opacity: 0;
   text-shadow: 1px 2px rgba(0, 0, 0, .25);
   transform-origin: left center;
-  animation: blur 1s linear;
+  animation: blur 3s 800ms linear forwards;
   padding-left: 1em;
 }
 
@@ -55,7 +56,7 @@ img {
 
 .cherry {
   animation: cherry 600ms linear forwards;
-  top: 50px;
+  top: -300px;
   left: calc(50% - 40px);
   width: 50px;
   z-index: 10;
@@ -63,7 +64,7 @@ img {
 
 .vanilla-fudge {
   animation: fudge 500ms linear forwards;
-  top: 50px;
+  top: -300px;
   left: calc(50% - 80px);
   width: 130px;
   z-index: 9;
@@ -71,7 +72,7 @@ img {
 
 .chocolate-chip {
   animation: chocolate-chip 400ms linear forwards;
-  top: 50px;
+  top: -300px;
   left: calc(50% - 70px);
   width: 130px;
   z-index: 8;
@@ -80,7 +81,7 @@ img {
 .mint-chip {
   animation: mint-chip 300ms linear forwards;
   left: calc(50% - 90px);
-  top: 50px;
+  top: -300px;
   width: 130px;
   z-index: 7;
 }
@@ -88,7 +89,7 @@ img {
 .cone {
   animation: cone 200ms linear forwards;
   left: calc(50% - 90px);
-  top: 50px;
+  top: -300px;
   width: 130px;
   z-index: 11;
 }
@@ -96,11 +97,6 @@ img {
 @keyframes blur {
 
   0% {
-    opacity: 0;
-    filter: blur(10px);
-  }
-
-  50% {
     opacity: 0;
     filter: blur(10px);
   }
