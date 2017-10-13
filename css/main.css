@@ -167,3 +167,16 @@ p {
     transform: translateY(710px);
   }
 }
+
+@media only screen and (min-width: 90em) {
+
+  .banner {
+    padding-left: 10em;
+    padding-right: 9em;
+  }
+
+  .intro {
+    padding-top: 2em;
+  }
+
+}
