@@ -49,7 +49,7 @@ p {
   position: relative;
 }
 
-.ice {
+img {
   position: absolute;
 }
 
@@ -61,7 +61,7 @@ p {
   z-index: 10;
 }
 
-.melt {
+.vanilla-fudge {
   animation: fudge 500ms linear forwards;
   bottom: 600px;
   left: calc(50% - 80px);
@@ -69,7 +69,7 @@ p {
   z-index: 9;
 }
 
-.chips {
+.chocolate-chip {
   animation: chocolate 400ms linear forwards;
   bottom: 600px;
   left: calc(50% - 70px);
@@ -77,8 +77,8 @@ p {
   z-index: 8;
 }
 
-.mint {
-  animation: mint 300ms linear forwards;
+.mint-chip {
+  animation: mint-chip 300ms linear forwards;
   left: calc(50% - 90px);
   bottom: 600px;
   width: 130px;
@@ -144,7 +144,7 @@ p {
   }
 }
 
-@keyframes mint {
+@keyframes mint-chip {
 
   0% {
     transform: translate(0, -100px);
