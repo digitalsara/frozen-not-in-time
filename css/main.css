@@ -55,41 +55,41 @@ img {
 }
 
 .cherry {
-  animation: cherry 600ms linear forwards;
-  top: -300px;
+  animation: cherry 700ms linear forwards;
+  top: -1200px;
   left: calc(50% - 40px);
   width: 50px;
   z-index: 10;
 }
 
 .vanilla-fudge {
-  animation: fudge 500ms linear forwards;
-  top: -300px;
+  animation: fudge 600ms linear forwards;
+  top: -1200px;
   left: calc(50% - 80px);
   width: 130px;
   z-index: 9;
 }
 
 .chocolate-chip {
-  animation: chocolate-chip 400ms linear forwards;
-  top: -300px;
+  animation: chocolate-chip 500ms linear forwards;
+  top: -1200px;
   left: calc(50% - 70px);
   width: 130px;
   z-index: 8;
 }
 
 .mint-chip {
-  animation: mint-chip 300ms linear forwards;
+  animation: mint-chip 400ms linear forwards;
   left: calc(50% - 90px);
-  top: -300px;
+  top: -1200px;
   width: 130px;
   z-index: 7;
 }
 
 .cone {
-  animation: cone 200ms linear forwards;
+  animation: cone 300ms linear forwards;
   left: calc(50% - 90px);
-  top: -300px;
+  top: -1200px;
   width: 130px;
   z-index: 11;
 }
@@ -110,7 +110,7 @@ img {
 @keyframes cherry {
 
   0% {
-    top: -300px;
+    top: -1200px;
   }
 
   100% {
@@ -121,7 +121,7 @@ img {
 @keyframes fudge {
 
   0% {
-    top: -300px;
+    top: -1200px;
   }
 
   100% {
@@ -132,7 +132,7 @@ img {
 @keyframes chocolate-chip {
 
   0% {
-    top: -300px;
+    top: -1200px;
   }
 
   100% {
@@ -143,7 +143,7 @@ img {
 @keyframes mint-chip {
 
   0% {
-    top: -300px;
+    top: -1200px;
   }
 
   100% {
@@ -154,7 +154,7 @@ img {
 @keyframes cone {
 
   0% {
-    top: -300px;
+    top: -1200px;
   }
 
   100% {
