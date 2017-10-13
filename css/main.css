@@ -55,7 +55,7 @@ img {
 
 .cherry {
   animation: cherry 600ms linear forwards;
-  bottom: 600px;
+  top: 50px;
   left: calc(50% - 40px);
   width: 50px;
   z-index: 10;
@@ -63,15 +63,15 @@ img {
 
 .vanilla-fudge {
   animation: fudge 500ms linear forwards;
-  bottom: 600px;
+  top: 50px;
   left: calc(50% - 80px);
   width: 130px;
   z-index: 9;
 }
 
 .chocolate-chip {
-  animation: chocolate 400ms linear forwards;
-  bottom: 600px;
+  animation: chocolate-chip 400ms linear forwards;
+  top: 50px;
   left: calc(50% - 70px);
   width: 130px;
   z-index: 8;
@@ -80,7 +80,7 @@ img {
 .mint-chip {
   animation: mint-chip 300ms linear forwards;
   left: calc(50% - 90px);
-  bottom: 600px;
+  top: 50px;
   width: 130px;
   z-index: 7;
 }
@@ -88,7 +88,7 @@ img {
 .cone {
   animation: cone 200ms linear forwards;
   left: calc(50% - 90px);
-  bottom: 600px;
+  top: 50px;
   width: 130px;
   z-index: 11;
 }
@@ -114,55 +114,55 @@ img {
 @keyframes cherry {
 
   0% {
-    transform: translate(0, -100px);
+    top: -300px;
   }
 
   100% {
-    transform: translateY(310px);
+    top: 10px;
   }
 }
 
 @keyframes fudge {
 
   0% {
-    transform: translate(0, -100px);
+    top: -300px;
   }
 
   100% {
-    transform: translateY(410px);
+    top: 60px;
   }
 }
 
-@keyframes chocolate {
+@keyframes chocolate-chip {
 
   0% {
-    transform: translate(0, -100px);
+    top: -300px;
   }
 
   100% {
-    transform: translateY(490px);
+    top: 140px;
   }
 }
 
 @keyframes mint-chip {
 
   0% {
-    transform: translate(0, -100px);
+    top: -300px;
   }
 
   100% {
-    transform: translateY(580px);
+    top: 230px;
   }
 }
 
 @keyframes cone {
 
   0% {
-    transform: translate(0, -100px);
+    top: -300px;
   }
 
   100% {
-    transform: translateY(710px);
+    top: 320px;
   }
 }
 
